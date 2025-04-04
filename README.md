@@ -18,7 +18,7 @@ Source: news articles scraped from udn.com
 
 Data can be downloaded on [Google Drive](https://drive.google.com/drive/folders1PMa25MwIVWTRhUtkWTfBFgqbqmGAxG2-).  
 In `train.jsonl`, the token length distributions of **maintext** and **title** are shown in the figure below.
-<img src="./imgs/seq_length_distribution.png" alt="Description" width="300"/>
+<img src="./imgs/seq_length_distribution.png" alt="Description" width="550"/>
 ## Model Weights
 This project uses pre-trained [google/mt5-small](https://huggingface.co/google/mt5-small) from Hugging Face as the backbone for fine-tuning.  
 The fine-tuned model weights are available via [Google Drive](https://drive.google.com/file/d/1oH4KqUhyHJ9pUPiiF1CIDOz7awi5sb7O/view?usp=share_link).
