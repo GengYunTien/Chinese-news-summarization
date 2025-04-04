@@ -11,6 +11,7 @@ Evaluation metrics: **ROUGE score**
 |---------------|------------|------------|------------|
 | Baseline      | 0.225      | 0.085      | 0.205      |
 | Result        | **0.261**  | **0.103**  | **0.234**  |
+
 The ROUGE evaluation was performed using the method provided in [this repository](https://github.com/deankuo/ADL24-HW2).
 ## Data
 Source: news articles scraped from udn.com  
