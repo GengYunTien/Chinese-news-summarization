@@ -11,7 +11,7 @@ import transformers
 from transformers import AdamW, Adafactor
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, DataCollatorForSeq2Seq, get_scheduler
 
-from modules.utils import log, set_seed, read_data
+from utils import log, set_seed, read_data
 
 parser = argparse.ArgumentParser(description="Finetune a transformers model on a title generation task")
 parser.add_argument("--train_file", type=str, default=None, help="A csv or a json file containing the training data.")

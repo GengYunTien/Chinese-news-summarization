@@ -9,6 +9,8 @@ from datasets import Dataset
 import transformers
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
+from utils import set_seed, read_data
+
 parser = argparse.ArgumentParser(description="Inference a transformers model on a title generation task")
 parser.add_argument("--test_file", type=str, default=None, help="A csv or a json file containing the training data.")
 parser.add_argument("--model_name_or_path", type=str, help="Path to pretrained model or model identifier from huggingface.co/models.")
