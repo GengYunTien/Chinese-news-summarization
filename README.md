@@ -1,4 +1,4 @@
-# Chinese-news-summarization
+# chinese-news-summarization
 ### Task Description - Chinese News Title Generation
 Given a full news article as input, the model generates a concise headline as the output.  
 The model is fine-tuned based on **T5-small** and utilizes both greedy decoding and beam search for summarization generation.
